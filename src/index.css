@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: A Gothique Time;
+  src: url('./fonts/AGothiqueTime.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Faith Collapsing;
+  src: url('./fonts/FaithCollapsing.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Single Ghost Regular;
+  src: url('./fonts/SingleGhostregular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Charlotte;
+  src: url('./fonts/charlotte.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lieselotte;
+  src: url('./fonts/Lieselotte.ttf');
+  font-weight: 400;
+  font-style: normal;
+}

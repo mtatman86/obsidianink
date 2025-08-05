@@ -1,0 +1,91 @@
+/* app.css */
+
+/* Reset some basics */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body & root */
+body, #root {
+  height: 100%;
+  background-color: #121212; /* dark background */
+  color: #eee; /* light text */
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #82aaff; /* soft blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #4c6ef5; /* brighter on hover */
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+button:focus {
+  outline: 2px solid #4c6ef5;
+  outline-offset: 2px;
+}
+
+/* Main containers */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Sidebar */
+aside {
+  background-color: #1a1a1a;
+  border-right: 1px solid #444;
+  padding: 1rem;
+  min-width: 200px;
+  color: #eee;
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+/* Scrollbar styling (optional for desktop) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4c6ef5;
+  border-radius: 4px;
+}
+
+/* Utility */
+.text-center {
+  text-align: center;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
