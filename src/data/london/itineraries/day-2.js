@@ -1,4 +1,4 @@
-export default [
+const day2Itinerary = [
   { time: "9:00 AM", title: "The Tower of London" },
   { time: "1:00 PM", title: "Hunterian Museum" },
   { time: "3:00 PM", title: "Freemasons' Hall" },
@@ -6,3 +6,4 @@ export default [
   { time: "6:00 PM", title: "Dinner at Jack the Chipper" },
   { time: "7:30 PM", title: "Jack the Ripper Tour" },
 ];
+export default day2Itinerary;
